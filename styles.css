@@ -1,0 +1,178 @@
+@font-face {
+    font-family: "League Spartan";
+    src: url(fonts/LeagueSpartan-Bold.ttf);
+}
+
+:root {
+    --one: #fdffd7;
+    --two: #3d2cb0;
+    --three: rgb(0,0,0,0.1);
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--two);
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+header {
+    z-index: 999;
+    background-color: var(--one);
+    color: var(--two);
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100vw;
+    height: 7vh;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    box-sizing: border-box;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: var(--one);
+}
+.twenter {
+    width: 50%;
+    box-sizing: border-box;
+
+    padding: 25px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.twenter i {
+    margin-right: 10px;
+
+    font-size: 2em;
+}
+nav {
+    width: 50%;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+    padding: 25px;
+}
+nav a {
+    margin: 10px;
+
+    text-decoration: none;
+
+    color: var(--two);
+    cursor: pointer;
+    font-size: larger;
+}
+nav a:hover {
+    color: rgb(0,0,0,0.43);
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    box-sizing: border-box;
+
+    margin-top: 10vh;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leaderboard {
+    text-align: center;
+
+    color: var(--one);
+
+    background-color: var(--three);
+
+    position: relative;
+
+    z-index: 998;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    padding: 50px;
+    border-radius: 50px;
+    width: 800px;
+
+    box-shadow: 10px 10px 19px rgb(0,0,0,0.43);
+
+    margin-top: 55px;
+    margin-bottom: 25px;
+    font-size: 2em;
+
+    border: 3px solid black;
+
+    text-shadow: 1px 1px 4px rgb(0,0,0,0.7);
+}
+.leaderboard:first-child {
+    margin-top: 70px;
+}
+@media screen and (max-width: 800px) {
+    .leaderboard {
+        width: 80%;
+    }
+}
+.number {
+    position: absolute;
+    top: -100px;
+    left: -50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 150px;
+    border: 3px solid black;
+
+    width: 50px;
+    height: 50px;
+
+    padding: 50px;
+    font-size: 2em;
+    background-color: #12ace0;
+}
+.first {
+    background-color: #ffdd37;
+}
+.second {
+    background-color: #c0baba;
+}
+.third {
+    background-color: #cc3636;
+}
+.first, .second, .third {
+
+}
+
+
+#usernameForm {
+    background-color: red;
+    font-size: 2em;
+}
+input, button {
+    margin: 0;
+    padding: 0;
+}
