@@ -1,5 +1,2 @@
-# P5.JS Game
-# ihawp
-# Play @ ihawp.com/gameihawp
-
-* has not been updated to this version yet
+* P5.JS Game
+* Play @ ihawp.com/dees
