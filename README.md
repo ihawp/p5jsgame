@@ -1,2 +1,2 @@
 * P5.JS Game
-* Play @ ihawp.com/dees
+* Play @ game.ihawp.com
